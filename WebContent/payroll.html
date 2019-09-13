@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Payroll</title>
+</head>
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid green;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid green;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid green;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+</style>
+
+<body background="Screen-Shot-2017-08-25-at-5.11.36-PM-620x400.png">
+
+<div>
+<h1 style="color:blue;">PAYROLL:</h1>
+<form name="Form1"  method="post" action="p_reg.jsp">
+
+<label for="pid" style="color:black;"><b>Payslip ID:</b></label>
+    <input type="text" id="pid" name="pid" placeholder="Enter Payslip ID">
+    <br><br>
+
+
+ <label for="eid" style="color:black;"><b>Employee ID:</b></label>
+    <input type="text" id="eid" name="eid" placeholder="Enter Employee ID">
+    <br><br>
+ 
+<label for="name" style="color:black;"><b>Employee's Name:</b></label>
+ <input type="text" id="name" name="name" placeholder="Enter Employee's name...">
+ <br><br>
+ 
+ 
+ <label for="sal" style="color:black;"><b>Salary:</b></label>
+ <input type="number" id="sal" name="sal" min="25000" max="200000" placeholder="Enter salary of the Employee...">
+ <br><br>
+ 
+  <label for="sal_date" style="color:black;"><b>Salary Date:</b></label>
+ <input type="date" id="sal_date" name="sal_date" placeholder="Enter salary date...">
+ <br><br>
+ 
+
+
+
+<center>
+<b></b><input type=submit value="Submit"></b>
+</center>
+</form> <br>
+</div>
+<h2><a href="homepage.html"><b>GO BACK</b></a></h2>
+
+</body>
+</html>

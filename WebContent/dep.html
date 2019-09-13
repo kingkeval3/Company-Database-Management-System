@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Company Departments</title>
+</head>
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid green;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+</style>
+
+<body background="36588097-business-wallpaper.jpg">
+
+<div>
+<h1 style="color:blue;">Department Details:</h1>
+<form name="Form1"  method="post" action="dep_reg.jsp">
+
+
+ <label for="eid" style="color:black;"><b>Employee ID:</b></label>
+    <input type="text" id="eid" name="eid" placeholder="Enter Employee ID">
+    <br><br>
+
+<label for="name" style="color:black;"><b>Employee's Name:</b></label>
+ <input type="text" id="name" name="name" placeholder="Enter Employee's name...">
+ <br><br>
+
+<B>Department Code:</B>
+<select name="did" size="1">
+<option value="D1">Service Department:D1</option>
+<option value="D2">Supply chain Management:D2</option>
+<option value="D3">Production & Quality Assurance:D3</option>
+<option value="D4">Finance Department:D4</option>
+<option value="D5">IT Department:D5</option>
+</select>
+<br><br>
+
+ 
+ <B>Employee's Department Name:</B>
+<select name="ed" size="1">
+<option value="Service Department">Service Department</option>
+<option value="Supply chain Management Department">Supply chain Management Department</option>
+<option value="Production & Quality Assurance Department">Production & Quality Assurance Department</option>
+<option value="Finance Department">Finance Department</option>
+<option value="IT Department">IT Department</option>
+</select>
+<br><br>
+ 
+ <label for="eds" style="color:black;"><b>Employee's Designation:</b></label>
+ <input type="text" id="ep" name="ep" placeholder="Enter Employee's post...">
+ <br><br>
+ 
+ <label for="hod" style="color:black;"><b>Head of Department:</b></label>
+ <input type="text" id="hod" name="hod" placeholder="Enter name of HOD...">
+ <br><br>
+ 
+
+
+
+
+<center>
+<input type=submit value="Submit">
+</center>
+</form> <br>
+</div>
+<h2><a href="homepage.html"><b>GO BACK</b></a></h2>
+
+</body>
+</html>

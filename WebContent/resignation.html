@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Resign</title>
+</head>
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid green;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid green;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+</style>
+
+<body background="Resignation_letter.jpg">
+
+<div>
+<h1 style="color:blue;">Resignation/Relive:</h1>
+<form name="Form1"  method="post" action="r_reg.jsp">
+
+
+
+
+ <label for="rid" style="color:black;"><b>Resignation Code:</b></label>
+    <input type="text" id="rid" name="rid" placeholder="Enter Resignation number...">
+    <br><br>
+ 
+ <label for="eid" style="color:black;"><b>Employee ID:</b></label>
+    <input type="text" id="eid" name="eid" placeholder="Enter Employee ID">
+    <br><br>
+
+
+<label for="name" style="color:black;"><b>Employee's Name:</b></label>
+ <input type="text" id="name" name="name" placeholder="Enter Employee's name...">
+ <br><br>
+ 
+ 
+ <label for="rp" style="color:black;"><b>Resigning Purpose:</b></label>
+ <input type="text" id="rp" name="rp" placeholder="Enter purpose for resignation...">
+ <br><br>
+ 
+  <label for="r_date" style="color:black;"><b>Resigning Date:</b></label>
+ <input type="date" id="r_date" name="r_date" placeholder="Enter date of resignation...">
+ <br><br>
+
+
+
+
+<center>
+<b></b><input type=submit value="Submit"></b>
+</center>
+</form> <br>
+</div>
+<h2><a href="homepage.html"><b>GO BACK</b></a></h2>
+
+</body>
+</html>
